@@ -1,5 +1,10 @@
 # Personalised greating program
 
-myName = "Fola"
+myName = input("What is your name? ")
+myAge = input("how old are you? ")
+locationn = input("Where are you from? ")
 
-print (f"Hello, {myName}")
+
+
+print (f"Hello, {myName} Random is wishing you a happy {myAge} birthday")
+print (f"{locationn}")
